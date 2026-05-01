@@ -32,7 +32,7 @@ def factorial(n):
 
     Ejemplo: factorial(5) -> 120  (1*2*3*4*5)
     """
-    answer = 1
-    for i in range(2, n + 1, 2):
-        answer = answer * i
-    return answer
+    total = 1
+    for i in range(1, n + 1):
+        total = total * i
+    return total
