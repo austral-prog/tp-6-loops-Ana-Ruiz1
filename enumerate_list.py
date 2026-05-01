@@ -13,8 +13,8 @@ def enumerate_list(lst):
     indice = 0
     for elemento in lst:
         if elemento != "":
-           lista.appencd(f"{indice}. {elemento}")
-           indice += 1
+            lista.append(f"{indice}. {elemento}")
+            indice += 1
     return lista
 
 
@@ -31,7 +31,7 @@ def enumerate_backwards(lst):
         if elemento != "":
             backwards = ""
             for letra in elemento:
-                backwards = letras + backwards
-            lista.appencd(f"{indice}. {elemento}")
+                backwards = letra + backwards 
+            lista.append(f"{indice}. {backwards}") 
             indice += 1
     return lista
