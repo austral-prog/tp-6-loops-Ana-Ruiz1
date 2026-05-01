@@ -36,7 +36,7 @@ def col_sums(matrix):
 
     Ejemplo: col_sums([[1, 2, 3], [4, 5, 6]]) -> [5, 7, 9]
     """
-    if len(matrix) == 0
+    if len(matrix) == 0:
         return []
     num_colms = len(matrix[0])
     lista = []
