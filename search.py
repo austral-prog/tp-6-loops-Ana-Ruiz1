@@ -10,7 +10,7 @@ def index_of(target, lst):
     index = 0
     for i in range(len(lst)):
         if lst[i] == target:
-        return i
+            return i 
     return -1
 
 
